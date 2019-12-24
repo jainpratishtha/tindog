@@ -1,0 +1,171 @@
+/*html elements*/
+body{
+    font-family:"Montserrat-Black"
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-Bold";
+    /*        font-weight:bold;*/
+
+    line-height: 1.5;
+
+}
+
+
+/*classes and ids*/
+.big-heading{
+
+}
+
+.container-fluid{
+    padding-bottom: 7%;
+}
+.down{
+    margin: 5% 3% 5% 0%
+}
+.nav-item{
+
+    padding: 0px 18px;
+
+}
+/*nav bar*/
+.nav-link{
+    font-family: "Montserrat";
+    font-size: 120%; 
+    font-weight: lighter 
+}
+.navbar-brand{
+    font-family:  "ubuntu"
+}
+
+#title{
+    background-color:#ff4C68;
+}
+.navbar{
+    /*      font-family:"Montserrat-Bold"*/
+}
+
+
+
+.image{
+    position: relative;
+    width: 60%;
+    top:20px;
+    left:130px;
+    transform: rotate(25deg)
+}
+.fas {
+    margin-bottom: 10px;
+    color: #ef8172;
+}
+.icon:hover{
+    color :#ff4C68;
+}
+.bfeatures{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+
+}
+#features{
+    bottom:150px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    /*    z-index: 8;*/
+}
+#testimonials{
+    padding: 7% 15%;
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom:150px;
+}
+.testimonials-image{
+    width: 150px;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    padding-bottom: 0%;
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom:150px;
+}
+.press-logo{
+    width: 20%;
+    margin: 20px 20px 50px;
+}
+.carousel-item  {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.calp{
+    position: relative;
+    left:-200px
+
+}
+.caln{
+    position: relative;
+    right:-200px
+
+}
+#pricing{
+    text-align: center;
+    /*    margin-top: 70px;*/
+    padding: 50px 50px;
+    position: relative;
+    bottom: 100px;
+
+
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+#cta{
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    background-color: #ff4c68;
+    font-size: large  ;
+    /*      font-family:"Montserrat-Black";*/
+    /*    font-weight: bold;*/
+}
+
+
+@media  only screen and (max-width:1000px){
+    .image{
+        position:static;
+        transform:rotate(0deg);
+        margin-bottom: 140px;
+        text-align: center;
+    }
+    .up{
+        text-align: center;
+    }
+    .carousel-inner{
+        padding-bottom: 230px;
+    }
+    .calp{
+        position: static;
+    }
+    .caln{
+        position: static;
+    }
+    .press-logo{
+        margin-right: 15%;
+        margin-left: 15%;
+        width: 250px;
+    }
+
+}
+
+
+
+
+
+
+
